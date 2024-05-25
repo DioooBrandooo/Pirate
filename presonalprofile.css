@@ -1,0 +1,280 @@
+body {
+  margin: 20px;
+}
+
+.topdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.top {
+  font-size: 46px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.flagpreview {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.topflagdiv{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 18px;
+  height: 360px;
+  background-color: black;
+  border-width: 5px;
+  border-style: solid;
+  border-color: brown;
+  margin-bottom: 65px;
+}
+.topflagdiv img{
+  width: 400px;
+  height: 290px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.ten {
+  color: Red;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  font-weight: bold;
+}
+
+.tenspan {
+  text-decoration: underline;
+}
+
+.marcoo {
+  width: 500px;
+  height: 290px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.span {
+  text-decoration: underline;
+}
+
+.flagsname {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  font-size: 50px;
+  font-weight: Bold;
+  height: 200px;
+  text-decoration: underline;
+}
+
+.writingdiv {
+  display: flex;
+  margin-bottom: 15px;
+  margin-bottom: 15px;
+}
+.Whitebeardp span{
+  color: red;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.Whitebeardp {
+  font-family: Roboto, Arial;
+  font-size: 24px;
+  line-height: 40px;
+}
+.about{
+  font-family: Roboto, Arial;
+  font-size: 24px;
+  line-height: 40px;
+  margin-bottom: 65px;
+}
+.notediv{
+  background-color: rgb(206, 219, 219);
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto, Arial;
+  font-size: 24px;
+  line-height: 40px;
+  margin-bottom: 65px;
+  padding: 12px;
+}
+.notespan{
+  color: red;
+  text-decoration: underline;
+  font-weight: 700;
+}
+.thepdiv{
+  background-color: rgb(232, 230, 227) ;
+  padding: 1px 8px 1px 8px;
+  margin-top: 25px;  
+}
+.thepdiv p{
+  font-family: Roboto, Arial;
+  font-size: 24px;
+  line-height: 40px;
+  margin-bottom: 25px;
+}
+.thepdiv span{
+  color: red;
+  text-decoration: underline;
+  font-weight: 700;
+}
+.about span{
+  color: red;
+  text-decoration: underline;
+}
+.conclutiondiv{
+ background-color:  rgb(206, 219, 219);
+ padding: 1px 8px 1px 8px;;
+}
+.conclution{
+  font-family: Roboto, Arial;
+  font-size: 24px;
+  line-height: 40px;
+}
+.conclution span{
+  color: red;
+  text-decoration: underline;
+}
+.end{
+  background-color: red;
+  height: 10px;
+  margin-bottom: 65px;
+  border-radius: 6px;
+}
+@media (max-width: 1090px) {
+.flagpreview{
+  display: none;
+}
+
+}
+@media (min-width: 1090px) {
+  .mediamarcoodiv{
+    display: none;
+  }
+  .mediadiv{
+    display: none;
+  }
+}
+@media (max-width: 888px){
+  .topflagdiv img{
+    width: 196px;
+    height: 144px; 
+  }
+  .topflagdiv{
+    height: 280px;
+  }}
+
+  @media (max-width: 1090px){
+    .mediamarcoodiv{
+      display: flex;
+      justify-content: center;
+    }
+    .mediamarcoo{
+      width: 500px;
+      height: 290px;
+      object-fit: cover;
+      object-position: center;
+    }
+    .mediadiv{
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .mediaten {
+      color: Red;
+      font-size: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 10px;
+      font-weight: bold;
+      margin-right: 10px;
+    }
+    .mediaflagsname {
+      display: flex;
+      align-items: center;
+      font-size: 50px;
+      font-weight: Bold;
+      height: 200px;
+      text-decoration: underline;
+    }
+  }
+  @media (max-width: 740px) {
+    .mediaflagsname{
+      font-size: 40px;
+    }
+    .mediaten{
+      width: 50px;
+    }
+  }
+  @media (max-width: 640px) {
+    .mediaflagsname{
+      font-size: 30px;
+    }
+    .mediaten{
+      font-size: 30px;
+    }
+    .mediamarcoo{
+      width: 420px;
+      height: 280px;
+      object-fit: cover;
+      object-position: center;
+    }
+    .top {
+      font-size: 27px;
+      margin-left: 24px;
+    }
+  }
+  @media (max-width: 460px) {
+    .topflagdiv img{
+      width: 110px;
+      height: 110px; 
+    }
+    .topflagdiv{
+      height: 180px;
+    }
+    .Whitebeardp {
+      font-size: 18px;
+    }
+    .about{
+      font-size: 18px;
+    }
+    .thepdiv p{
+      font-size: 20px;
+    }
+    .mediaflagsname{
+     font-size: 23px; 
+    }
+    .notediv div{
+      font-size: 18px;
+    }
+    .mediamarcoo{
+      width: 300px;
+      height: 160px;
+      object-fit: cover;
+      object-position: center;
+    }
+    .conclution{
+      font-size: 18px;
+    }
+    .mediaten{
+      height: 100px;
+    }
+    .mediaflagsname{
+      height: 100px;
+      margin-left: 8px;
+    }
+    
+    
+    
+  }
